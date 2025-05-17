@@ -10,8 +10,7 @@ This project demonstrates a real-world **length extension attack** on an insecur
 |-------------------|-------------|
 | `client.py`        | Performs the length extension attack using `hashpumpy` |
 | `server.py`        | Simulates a vulnerable server using `MD5(secret + message)` |
-| `securedserver.py` | Secure server using `HMAC` with `MD5` to prevent forgery |
-| `Bonus.pdf`        | Project report (manual steps, results) |
+| `server_hmac.py` | Secure server using `HMAC` with `MD5` to prevent forgery |
 | `README.md`        | This documentation file |
 
 ---
